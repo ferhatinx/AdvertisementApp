@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace Common
 {
-    public class Response<T> : Response
+    public class Response<T> : Response,IResponse<T>
     {
         
 
