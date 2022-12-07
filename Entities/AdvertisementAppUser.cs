@@ -9,7 +9,7 @@ namespace Entities
         public int AppUserId { get; set; }
         public AppUser AppUser { get; set; }
         public int AdvertisementAppUserStatusId { get; set; }
-        public AdvertisementAppUser AdvertisementAppUserStatus { get; set; }
+        public AdvertisementAppUserStatus AdvertisementAppUserStatus { get; set; }
         public int MilitaryStatusId { get; set; }
         public MilitaryStatus MilitaryStatus { get; set; }
          public DateTime? EndDate { get; set; }
