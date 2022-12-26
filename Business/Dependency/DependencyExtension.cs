@@ -24,6 +24,8 @@ namespace Business.Dependency
             {
                 opt.AddProfile(new ProvidedServiceMapper());
 
+                opt.AddProfile(new AdvertisementMapper());
+
             });
             var mapper = mapperConfiguration.CreateMapper();
             services.AddSingleton(mapper);
@@ -31,6 +33,10 @@ namespace Business.Dependency
             services.AddTransient<IValidator<ProvidedServiceCreateDto>,ProvidedServiceCreateDtoValidator>();
             services.AddTransient<IValidator<ProvidedServiceUpdateDto>,ProvidedServiceUpdateDtoValidator>();
 
+            services.AddTransient<IValidator<AdvertisementUpdateDto>, AdvertisementUpdateDtoValidator>();
+            services.AddTransient<IValidator<AdvertisementCreateDto>, AdvertisementCreateDtoValidator>();
+
+            services.AddScoped<IAdvertisementService, AdvertisementService>();
 
             services.AddScoped<IProvidedServiceService, ProvidedServiceService>();
 
