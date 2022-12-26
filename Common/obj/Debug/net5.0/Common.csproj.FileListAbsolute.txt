@@ -1,0 +1,12 @@
+E:\ASP.NET CORE\YSKudemy\AdvertisementApp\Common\bin\Debug\net5.0\Common.deps.json
+E:\ASP.NET CORE\YSKudemy\AdvertisementApp\Common\bin\Debug\net5.0\Common.dll
+E:\ASP.NET CORE\YSKudemy\AdvertisementApp\Common\bin\Debug\net5.0\Common.pdb
+E:\ASP.NET CORE\YSKudemy\AdvertisementApp\Common\obj\Debug\net5.0\Common.csproj.AssemblyReference.cache
+E:\ASP.NET CORE\YSKudemy\AdvertisementApp\Common\obj\Debug\net5.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASP.NET CORE\YSKudemy\AdvertisementApp\Common\obj\Debug\net5.0\Common.AssemblyInfoInputs.cache
+E:\ASP.NET CORE\YSKudemy\AdvertisementApp\Common\obj\Debug\net5.0\Common.AssemblyInfo.cs
+E:\ASP.NET CORE\YSKudemy\AdvertisementApp\Common\obj\Debug\net5.0\Common.csproj.CoreCompileInputs.cache
+E:\ASP.NET CORE\YSKudemy\AdvertisementApp\Common\obj\Debug\net5.0\Common.dll
+E:\ASP.NET CORE\YSKudemy\AdvertisementApp\Common\obj\Debug\net5.0\refint\Common.dll
+E:\ASP.NET CORE\YSKudemy\AdvertisementApp\Common\obj\Debug\net5.0\Common.pdb
+E:\ASP.NET CORE\YSKudemy\AdvertisementApp\Common\obj\Debug\net5.0\ref\Common.dll

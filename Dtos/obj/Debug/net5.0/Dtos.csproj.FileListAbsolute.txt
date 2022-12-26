@@ -1,0 +1,12 @@
+E:\ASP.NET CORE\YSKudemy\AdvertisementApp\Dtos\obj\Debug\net5.0\Dtos.csproj.AssemblyReference.cache
+E:\ASP.NET CORE\YSKudemy\AdvertisementApp\Dtos\obj\Debug\net5.0\Dtos.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASP.NET CORE\YSKudemy\AdvertisementApp\Dtos\obj\Debug\net5.0\Dtos.AssemblyInfoInputs.cache
+E:\ASP.NET CORE\YSKudemy\AdvertisementApp\Dtos\obj\Debug\net5.0\Dtos.AssemblyInfo.cs
+E:\ASP.NET CORE\YSKudemy\AdvertisementApp\Dtos\obj\Debug\net5.0\Dtos.csproj.CoreCompileInputs.cache
+E:\ASP.NET CORE\YSKudemy\AdvertisementApp\Dtos\bin\Debug\net5.0\Dtos.deps.json
+E:\ASP.NET CORE\YSKudemy\AdvertisementApp\Dtos\bin\Debug\net5.0\Dtos.dll
+E:\ASP.NET CORE\YSKudemy\AdvertisementApp\Dtos\bin\Debug\net5.0\Dtos.pdb
+E:\ASP.NET CORE\YSKudemy\AdvertisementApp\Dtos\obj\Debug\net5.0\Dtos.dll
+E:\ASP.NET CORE\YSKudemy\AdvertisementApp\Dtos\obj\Debug\net5.0\refint\Dtos.dll
+E:\ASP.NET CORE\YSKudemy\AdvertisementApp\Dtos\obj\Debug\net5.0\Dtos.pdb
+E:\ASP.NET CORE\YSKudemy\AdvertisementApp\Dtos\obj\Debug\net5.0\ref\Dtos.dll
