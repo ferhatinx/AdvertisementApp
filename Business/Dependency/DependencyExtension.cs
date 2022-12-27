@@ -22,6 +22,10 @@ namespace Business.Dependency
             });
             var mapperConfiguration = new MapperConfiguration(opt=>
             {
+                opt.AddProfile(new GenderMapper());
+
+                opt.AddProfile(new AppUserMapper());
+
                 opt.AddProfile(new ProvidedServiceMapper());
 
                 opt.AddProfile(new AdvertisementMapper());
@@ -30,11 +34,22 @@ namespace Business.Dependency
             var mapper = mapperConfiguration.CreateMapper();
             services.AddSingleton(mapper);
             services.AddScoped<IUow,Uow>();
+
+            services.AddTransient<IValidator<GenderCreateDto>, GenderCreateDtoValidator>();
+            services.AddTransient<IValidator<GenderUpdateDto>, GenderUpdateDtoValidator>();
+
+            services.AddTransient<IValidator<AppUserCreateDto>,AppUserCreateDtoValidator>();
+            services.AddTransient<IValidator<AppUserUpdateDto>,AppUserUpdateDtoValidator>();
+
             services.AddTransient<IValidator<ProvidedServiceCreateDto>,ProvidedServiceCreateDtoValidator>();
             services.AddTransient<IValidator<ProvidedServiceUpdateDto>,ProvidedServiceUpdateDtoValidator>();
 
             services.AddTransient<IValidator<AdvertisementUpdateDto>, AdvertisementUpdateDtoValidator>();
             services.AddTransient<IValidator<AdvertisementCreateDto>, AdvertisementCreateDtoValidator>();
+
+            services.AddScoped<IGenderService, GenderService>();
+
+            services.AddScoped<IAppUserService, AppUserService>();
 
             services.AddScoped<IAdvertisementService, AdvertisementService>();
 
