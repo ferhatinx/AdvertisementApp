@@ -1,4 +1,5 @@
-﻿using Dtos;
+﻿using Common;
+using Dtos;
 using Entities;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,6 @@ namespace Business.Interfaces
 {
     public interface IAppUserService : IService<AppUserCreateDto,AppUserUpdateDto,AppUserListDto,AppUser>
     {
-
+        Task<IResponseT<AppUserCreateDto>> CreateWithRoleAsync(AppUserCreateDto dto, int roleid);
     }
 }

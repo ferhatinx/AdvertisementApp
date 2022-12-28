@@ -41,6 +41,7 @@ namespace Business.Services
             {
                 var createdEntity = _mapper.Map<T>(dto);
                 await _uow.GetRepository<T>().CreateAsync(createdEntity);
+                await _uow.SaveChangesAsync();
                 return new ResponseT<CreateDto>(ResponseType.Success,dto);
             }
             return new ResponseT<CreateDto>(dto,result.ConvertToCustomValidationError());
@@ -70,6 +71,7 @@ namespace Business.Services
             if (data == null)
                 return new Response(ResponseType.NotFound, $"{id} numaralý id bulunamadý");
             _uow.GetRepository<T>().Remove(data);
+            await _uow.SaveChangesAsync();
             return new Response(ResponseType.Success);
 
             
@@ -90,6 +92,7 @@ namespace Business.Services
                 }
                 var entity = _mapper.Map<T>(dto);
                 _uow.GetRepository<T>().Update(entity, unchangedData);
+                await _uow.SaveChangesAsync();
                 return new ResponseT<UpdateDto>(ResponseType.Success, dto); 
             }
             return new ResponseT<UpdateDto>(dto,result.ConvertToCustomValidationError());

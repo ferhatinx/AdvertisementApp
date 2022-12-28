@@ -19,8 +19,15 @@ using Dtos;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "E:\ASP.NET CORE\YSKudemy\AdvertisementApp\UI\Views\_ViewImports.cshtml"
+using UI.Models;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"fc3c06d30196e99f823b9206699a678a869fc99c", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"bceb4029a81b5878b57e0bdc8786bd0924ceb1af", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cdca5c247a74ccf9508cb184f775960ba4e13b04", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<ProvidedServiceListDto>>
     #nullable disable

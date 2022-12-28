@@ -87,3 +87,4 @@ E:\ASP.NET CORE\YSKudemy\AdvertisementApp\UI\obj\Debug\net5.0\UI.RazorTargetAsse
 E:\ASP.NET CORE\YSKudemy\AdvertisementApp\UI\obj\Debug\net5.0\UI.Views.pdb
 E:\ASP.NET CORE\YSKudemy\AdvertisementApp\UI\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 E:\ASP.NET CORE\YSKudemy\AdvertisementApp\UI\obj\Debug\net5.0\Razor\Views\Home\HumanResource.cshtml.g.cs
+E:\ASP.NET CORE\YSKudemy\AdvertisementApp\UI\obj\Debug\net5.0\Razor\Views\Account\SignUp.cshtml.g.cs

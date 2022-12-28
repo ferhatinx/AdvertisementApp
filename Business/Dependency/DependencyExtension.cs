@@ -20,19 +20,7 @@ namespace Business.Dependency
             services.AddDbContext<AdvertisementAppContext>(opt =>{
                 opt.UseSqlServer(configuration.GetConnectionString("Local"));
             });
-            var mapperConfiguration = new MapperConfiguration(opt=>
-            {
-                opt.AddProfile(new GenderMapper());
-
-                opt.AddProfile(new AppUserMapper());
-
-                opt.AddProfile(new ProvidedServiceMapper());
-
-                opt.AddProfile(new AdvertisementMapper());
-
-            });
-            var mapper = mapperConfiguration.CreateMapper();
-            services.AddSingleton(mapper);
+           
             services.AddScoped<IUow,Uow>();
 
             services.AddTransient<IValidator<GenderCreateDto>, GenderCreateDtoValidator>();
