@@ -17,7 +17,8 @@ namespace Business.Helpers
                 new GenderMapper(),
                 new AppUserMapper(),
                 new ProvidedServiceMapper(),
-                new AdvertisementMapper()
+                new AdvertisementMapper(),
+                new AppRoleMapper()
 
             };
 

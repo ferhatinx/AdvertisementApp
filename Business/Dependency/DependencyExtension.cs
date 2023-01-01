@@ -22,9 +22,11 @@ namespace Business.Dependency
             });
            
             services.AddScoped<IUow,Uow>();
-
+            services.AddTransient<IValidator<AppUserLoginDto>, AppUserLoginDtoValidator>();
             services.AddTransient<IValidator<GenderCreateDto>, GenderCreateDtoValidator>();
             services.AddTransient<IValidator<GenderUpdateDto>, GenderUpdateDtoValidator>();
+
+           
 
             services.AddTransient<IValidator<AppUserCreateDto>,AppUserCreateDtoValidator>();
             services.AddTransient<IValidator<AppUserUpdateDto>,AppUserUpdateDtoValidator>();
