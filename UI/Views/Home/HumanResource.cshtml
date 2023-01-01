@@ -21,12 +21,12 @@
 
                         @if (User.Identity.IsAuthenticated)
                         {
-                            <a href="#">Başvur</a>
+                            <a asp-controller="Advertisement" asp-action="Send">Başvur</a>
                         }
                         else
                         {
                             <div class="alert alert-light text-center">
-                                Başvuru yapabilmeniz için üye olmanız gerekmektedir<a href="#">Kayıt ol</a>
+                                Başvuru yapabilmeniz için giriş yapmanız gerekmektedir<a asp-action="SignIn" asp-controller="Account">Kayıt ol</a>
                             </div>
                         }
                     </div>
