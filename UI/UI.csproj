@@ -34,6 +34,10 @@
     <None Include="wwwroot\themas\startbootstrap-one-page-wonder-gh-pages\js\scripts.js" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\cvFiles\" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>

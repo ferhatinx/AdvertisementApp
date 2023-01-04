@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Common.Enums;
+using Microsoft.AspNetCore.Http;
 using Microsoft.VisualBasic;
 using System;
 
@@ -10,7 +11,7 @@ namespace UI.Models
 
         public int AppUserId { get; set; }
 
-        public int AdvertisementAppUserStatusId { get; set; }
+        public int AdvertisementAppUserStatusId { get; set; } = (int)AdvertisementAppUserStatusType.Basvurdu;
 
         public int MilitaryStatusId { get; set; }
 
@@ -18,7 +19,7 @@ namespace UI.Models
 
         public int WorkExperience { get; set; }
 
-        public IFormFile CvFile { get; set; }
+        public IFormFile CvPath { get; set; }
 
     }
 }

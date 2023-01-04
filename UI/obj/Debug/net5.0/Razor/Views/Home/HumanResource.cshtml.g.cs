@@ -26,8 +26,15 @@ using UI.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "E:\ASP.NET CORE\YSKudemy\AdvertisementApp\UI\Views\_ViewImports.cshtml"
+using Common.Enums;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cc4b70117c691b04970420dcedf46ceec91fc305", @"/Views/Home/HumanResource.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cdca5c247a74ccf9508cb184f775960ba4e13b04", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"172f03c29eb01610a905819fea89c3f7f389a4f1", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Home_HumanResource : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<AdvertisementListDto>>
     #nullable disable
@@ -174,7 +181,7 @@ WriteAttributeValue("", 815, Model[i].ID, 815, 12, false);
 #line hidden
 #nullable disable
             WriteLiteral("                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cc4b70117c691b04970420dcedf46ceec91fc3058959", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cc4b70117c691b04970420dcedf46ceec91fc3059131", async() => {
                 WriteLiteral("Başvur");
             }
             );
@@ -217,7 +224,7 @@ WriteAttributeValue("", 815, Model[i].ID, 815, 12, false);
 #line hidden
 #nullable disable
             WriteLiteral("                            <div class=\"alert alert-light text-center\">\r\n                                Başvuru yapabilmeniz için giriş yapmanız gerekmektedir");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cc4b70117c691b04970420dcedf46ceec91fc30511859", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cc4b70117c691b04970420dcedf46ceec91fc30512031", async() => {
                 WriteLiteral("Kayıt ol");
             }
             );

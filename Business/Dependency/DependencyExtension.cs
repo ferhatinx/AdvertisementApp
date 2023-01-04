@@ -26,7 +26,7 @@ namespace Business.Dependency
             services.AddTransient<IValidator<GenderCreateDto>, GenderCreateDtoValidator>();
             services.AddTransient<IValidator<GenderUpdateDto>, GenderUpdateDtoValidator>();
 
-           
+            services.AddTransient<IValidator<AdvertisementAppUserCreateDto>, AdvertisementAppUserCreateDtoValidator>(); 
 
             services.AddTransient<IValidator<AppUserCreateDto>,AppUserCreateDtoValidator>();
             services.AddTransient<IValidator<AppUserUpdateDto>,AppUserUpdateDtoValidator>();
@@ -37,6 +37,8 @@ namespace Business.Dependency
             services.AddTransient<IValidator<AdvertisementUpdateDto>, AdvertisementUpdateDtoValidator>();
             services.AddTransient<IValidator<AdvertisementCreateDto>, AdvertisementCreateDtoValidator>();
 
+            
+
             services.AddScoped<IGenderService, GenderService>();
 
             services.AddScoped<IAppUserService, AppUserService>();
@@ -44,6 +46,8 @@ namespace Business.Dependency
             services.AddScoped<IAdvertisementService, AdvertisementService>();
 
             services.AddScoped<IProvidedServiceService, ProvidedServiceService>();
+
+            services.AddScoped<IAdvertisementAppUserService, AdvertisementAppUserService>();
 
         }
         

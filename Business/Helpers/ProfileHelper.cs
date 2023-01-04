@@ -18,7 +18,8 @@ namespace Business.Helpers
                 new AppUserMapper(),
                 new ProvidedServiceMapper(),
                 new AdvertisementMapper(),
-                new AppRoleMapper()
+                new AppRoleMapper(),
+                new AdvertisementAppUserMapper()
 
             };
 
